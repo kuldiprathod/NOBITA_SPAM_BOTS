@@ -97,7 +97,7 @@ boy = ""
 
 que = {}
 
-SMEX_USERS = [5275980328]
+SMEX_USERS = [5082902573]
 for x in SUDO: 
     SMEX_USERS.append(x)
     
@@ -1099,7 +1099,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(functions.channels.JoinChannelRequest(channel=bc))
-                await event.edit("Joined..♈️")
+                await event.edit("𝐀𝐀 𝐆𝐘𝐀 𝐌𝐀𝐃𝐇𝐀𝐑𝐂𝐇𝐎𝐃")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -1147,7 +1147,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(ImportChatInviteRequest(bc))
-                await event.edit("Joined..♈️")
+                await event.edit("𝐆𝐑𝐏 𝐏𝐑𝐈𝐕𝐀𝐓𝐄 𝐊𝐀𝐑𝐄𝐆𝐀 𝐌𝐀𝐃𝐇𝐀𝐑𝐉𝐀𝐀𝐓")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -1207,7 +1207,7 @@ async def _(e):
 
                 await event.client(LeaveChannelRequest(bc))
 
-                await event.edit("Succesfully Left")
+                await event.edit("𝐀𝐖𝐊𝐀𝐀𝐓 𝐌𝐀𝐈 𝐑𝐀𝐇𝐈𝐎 𝐁𝐄𝐓𝐀 𝐀𝐁")
 
             except Exception as e:
 
@@ -1318,11 +1318,11 @@ async def spam(e):
 async def ping(e):
     if e.sender_id in SMEX_USERS:
         start = datetime.now()
-        text = "𝐍𝐎𝐁𝐈𝐓𝐀_𝐗𝐃 💫"
+        text = "Lᴏʀᴅ Xᴅ Sᴘᴀᴍs"
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"🔥𝐍𝐎𝐁𝐈𝐓𝐀_𝐗𝐃 !\n`{ms}` 𝗺𝘀\n𝐌𝐀𝐇𝐀𝐊𝐀𝐋_𝐗𝐃_𝐒𝐏𝐀𝐌 👹🔥\n ")
+        await event.edit(f"Lᴏʀᴅ Lᴜᴄɪғᴇʀ !\n`{ms}` 𝗺𝘀\n𝐌𝐀𝐇𝐀𝐊𝐀𝐋_𝐗𝐃_𝐒𝐏𝐀𝐌 \n ")
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
@@ -1356,7 +1356,7 @@ async def ping(e):
 @boy.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 async def restart(e):
     if e.sender_id in SMEX_USERS:
-        text = "𝙍𝙚𝙨𝙩𝙖𝙧𝙩𝙚𝙙...\n\nPing after 60 seconds"
+        text = "𝗥𝗨𝗞 𝗔𝗔𝗬𝗔 𝗠𝗨𝗧𝗛 𝗠𝗔𝗥𝗞𝗘...\n\nPing after 60 seconds"
         await e.reply(text, parse_mode=None, link_preview=None )
         try:
             await idk.disconnect()
@@ -1524,7 +1524,7 @@ async def help(e):
         
 text = """
 ⚜️ 𝙂𝙤 𝘿𝙤 .𝙥𝙞𝙣𝙜 𝙖𝙩 @mahakalspamcontrolroom ⚜️
-💥𝗕𝗬 @Nobi_xxd 💥"""
+💥𝗕𝗬 𝗟𝗢𝗥𝗗 𝗟𝗨𝗖𝗜𝗙𝗘𝗥 💥"""
 
 print(text)
 print("")
